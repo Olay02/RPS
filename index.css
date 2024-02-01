@@ -1,0 +1,134 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    border: 5px solid red;
+    background-color: #372e29;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    border: 5px dotted red;
+    text-align: center;
+    color:#ecb939;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+
+}
+
+.main{
+    justify-content: center;
+    text-align: center;
+    background-color:darkolivegreen;
+    color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;;
+    width: 100%;
+
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+#score-info{
+    margin: auto;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Pixelify Sans', sans-serif;}
+
+#score-msg{
+    margin: auto;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Pixelify Sans', sans-serif;
+    height: 50%;
+}
+
+.sign-output{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    font-size: 100px;
+    width: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top:50px;
+    margin-bottom: 0px;
+}
+
+.user-output,
+.comp-output{
+    width: 30%;
+    height: 60%;
+    background-color: #36454f;
+    border-radius: 10px;
+}
+
+#user-output1,
+#comp-output1{
+    width: fit-content;
+    border-radius: 10px;
+    height:fit-content;
+
+}
+
+#user-p,
+#comp-p{
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-top: 70px;
+}
+
+
+
+.buttons{
+    height:200px;
+    width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#scissors-button,
+#rock-button,
+#paper-button{
+    height: 100%;
+    width: 250px;
+    font-size: 100px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #36454f;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#scissors-button:hover,
+#rock-button:hover,
+#paper-button:hover{
+    background-color:#536878;
+}
+
+
+#scissors-button:active,
+#rock-button:active,
+#paper-button:active{
+    background-color: #708090;
+}
